@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --primary-color: rgb(255, 0, 200);
+    --secondary-color: rgb(9, 218, 255);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+    font-family:'Montserrat';
+    background-image: url(/gifs/ezgif.com-gif-maker.gif);
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    padding: .15em 1em;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    padding: .25em;
+    float: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding-top: 2em;
+    text-transform: uppercase;
+}
+
+
+span {
+    color: var(--primary-color);
+}
+
+
+
+.container2 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 2em;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 7em;
+    padding-top: 2em;
+    text-align: center;
+    padding-inline-start: .11em;
+}
+
+.subhead {
+    text-align: center;
+}
+
+.container3 {
+    padding: 2.5em;
+    justify-content:space-around;
+    align-items: center center;
+    align-content: center center;
+    display: flex;
+    background: transparent;
+
+
+}
+
+.listen-cta {
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding-top: 1em;
+    padding: .6em 1.3em;
+    font-size: 1em;
+    display: inline-block;
+    border-radius: 5em;
+    justify-content: space-between;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.listen-cta a:hover {
+    color: black;
+}
+
+.watch-cta1 {
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding-top: 1em;
+    padding: .6em 1.3em;
+    font-size: 1em;
+    display: inline-block;
+    border-radius: 5em;
+    justify-content: space-between;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.watch-cta1 a:hover {
+    color: black;
+}
+
+

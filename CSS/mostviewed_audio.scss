@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --primary-color: rgb(255, 0, 200);
+    --secondary-color: #0965cf;
+    --third-color: #cfb109;
+
+}
+
+* { 
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family:'Montserrat';
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    padding: .15em 1em;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    padding: .25em;
+    flex-grow: 1;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 2em;
+}
+
+nav li {
+    margin-left: 1em;
+    text-transform: uppercase;
+}
+
+
+span {
+    color: var(--primary-color);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 2em;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+.hero {
+    display: flex;
+    
+}
+
+
+.top-greeting {
+    padding: 14em 0em;
+    text-align: center;
+    background-image: url(/gifs/audio_header.gif);
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 2rem;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 2rem;
+    color: var(--third-color)
+}
+
+.paragraph-container {
+    background-color: var(--secondary-color);
+    padding: 2em 2em;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    margin-left: 0px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+
+}
+
+
+.column {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    justify-content: center;
+    transition: 1s;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+
+}
+
+.column:hover {    
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.option-links {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.option-links > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.option-links a {
+    flex-grow: 1;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 2em;
+
+}

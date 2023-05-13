@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap");
+:root {
+  --primary-color: rgb(255, 0, 200);
+  --secondary-color: #0965cf;
+  --third-color: #cfb109;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: 'Montserrat';
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  padding: .15em 1em;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  padding: .25em;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+nav {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 2em;
+}
+
+nav li {
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 2em;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-greeting {
+  padding: 14em 0em;
+  text-align: center;
+  background-image: url(/gifs/audio_header.gif);
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 2rem;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2rem;
+  color: var(--third-color);
+}
+
+.paragraph-container {
+  background-color: var(--secondary-color);
+  padding: 2em 2em;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2em;
+  padding-left: 0em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  margin-left: 0px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 45px;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.option-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.option-links > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.option-links a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 2em;
+}
+/*# sourceMappingURL=populartoday_audio copy.css.map */
